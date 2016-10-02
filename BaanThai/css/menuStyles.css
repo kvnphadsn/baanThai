@@ -1,0 +1,57 @@
+@import url('style.css'); /* styles from home page */
+
+.menuBar p {
+	width: 100%;
+	margin: 0 0 3%;
+	padding: 1% 5% 1%;
+	background: linear-gradient(to left, #33865f, #f8a039);
+	opacity: .4;
+	color: white;
+	font-size: 2em;
+	font-weight: 600;
+	letter-spacing: .25em;
+	text-shadow: 4px 4px #c37b28;
+}
+
+/*
+.imgBar {
+	background: url('../imgs/m-aptz.jpg') top center no-repeat;
+	width: 100%;
+	height: auto;
+	font-size: 2em;
+	color: white;
+	padding: 5%;
+}
+.imgBar p {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+*/
+
+.image {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.image h2 {
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	width: 100%;
+}
+	
+	
+	
+	
+		
+	
+	
+	
+	
+		
+	
+	
+	
+	

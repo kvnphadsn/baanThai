@@ -1,0 +1,140 @@
+/* ====================
+	BAAN THAI CSS 01
+	==================== */
+
+body {
+	font-family: 'Futura LT', sans-serif;
+	font-size: 16px;
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0 auto;
+	padding-bottom: 72px;
+}
+
+/* ====================
+	HEADER
+	==================== */
+
+img.logo {
+	width: 150px;
+	height: auto;
+	padding: 3%;
+}
+
+
+/* ====================
+	HERO img
+	==================== */
+
+img#hero {
+	width: 100%;
+	height: auto;
+}
+
+
+/* ====================
+	NAV
+	==================== */
+
+div.nav {
+	margin: 3%;
+	background: linear-gradient(to right, #33865f, #f8a039);
+}
+
+.nav p {
+	color: white;
+	font-size: 2em;
+	font-weight: 600;
+	letter-spacing: .25em;
+	position: relative;
+	top: 3px;
+	left: 26px;
+/*	padding: 26px;*/
+	margin: 0;
+	padding: 8% 2%;
+}
+
+nav a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+
+
+/* ====================
+	FOOTER
+	==================== */
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #33865f;
+	color: white;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	letter-spacing: 1.5px;
+	line-height: 1em;
+}
+
+footer>p {
+	margin: 0;
+	padding: 2%;
+}
+
+footer a {
+	color: white;
+/*	text-decoration: none;*/
+}
+
+footer a:hover {
+	color: #f8a039;
+	text-decoration: none;
+}
+
+
+
+/* ====================
+	MEDIA QUERIES
+	==================== */
+
+
+/* large screens */
+
+@media (min-width: 1024px) {
+	
+	img.logo {
+		width: 200px;
+		height: auto;
+		padding: 2%;
+	}
+	
+	div.nav {
+		margin: 1.5% 1%;
+		margin-bottom: 10%;
+		padding: 6% 1%;
+		float: left;
+		width: 29.33%;
+	}
+	
+	
+	.nav p {
+		font-size: 3em;
+		letter-spacing: .125em;
+/*
+		position: relative;
+		top: 2px;
+		left: 26px;
+*/
+	}
+	
+	footer {
+		font-size: 1.25em;
+	}
+	footer>p {
+		padding: 1%;
+	}
+}
+
